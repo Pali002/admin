@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 root=Tk()
-root.title('Login')
+root.title('Bejelentkezés')
 root.geometry('925x500+300+200')
 root.configure(bg="#fff")
 root.resizable(False, False)
@@ -89,3 +89,6 @@ sign_up = Button(frame, width = 9, text = 'Regisztráció', border = 0, bg = 'wh
 sign_up.place(x = 215, y = 270)
 
 root.mainloop()
+
+
+#https://www.youtube.com/watch?v=8g3OJD3FfEQ
